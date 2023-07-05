@@ -8,6 +8,6 @@ export default {
 		generator: true,
 		title: "=title",
 		description: "Hi! This is the main website for everything about me, Kot!",
-		color: "#" + convert.hsv.hex(200, 100, 80),
+		color: "#" + convert.hsl.hex(200, 100, 80),
 	} as MetaData,
 }
