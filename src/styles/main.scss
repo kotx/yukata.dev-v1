@@ -1,0 +1,27 @@
+@use "scss/variables" as *;
+@use "scss/prose";
+@use "scss/reset";
+
+body {
+  background-color: $bg-color;
+  color: white;
+  font-family: "Hanken Grotesk", system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+
+  @media (min-width: 1024px) {
+    padding-top: 5rem;
+  }
+}
+
+article {
+  padding: 1.5rem;
+
+  @media (min-width: 1024px) {
+    height: min-content;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+  }
+}
