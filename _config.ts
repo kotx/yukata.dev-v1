@@ -4,6 +4,7 @@ import sass from "lume/plugins/sass.ts"
 
 const site = lume({
 	src: "./src",
+	prettyUrls: false, // Cloudflare Pages looks for a 404.html, 404/index.html will not work
 	location: new URL("https://yukata.dev"),
 })
 
