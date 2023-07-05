@@ -4,6 +4,7 @@ import sass from "lume/plugins/sass.ts"
 
 const site = lume({
 	src: "./src",
+	location: new URL("https://yukata.dev"),
 })
 
 site
