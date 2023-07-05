@@ -17,7 +17,7 @@ article {
     color: $site-color;
 
     &:hover {
-      color: adjust-color($site-color, $lightness: +15%);
+      color: adjust-color($site-color, $lightness: +5%);
     }
   }
 
