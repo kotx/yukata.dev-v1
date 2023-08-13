@@ -8,6 +8,7 @@ Hey, I'm Kot! I'm a comp sci student at the University of Wisconsin.
 I've made a variety of software and hardware projects, from [object storage proxies](https://github.com/kotx/render) to [microcontrollers for motion controls](https://github.com/kotx/laplace)!
 Here's a list:
 - [render](https://github.com/kotx/render), a spec-compliant Cloudflare Worker to serve objects from a Cloudflare R2 storage bucket.
+- [aster](https://github.com/kotx/aster), another Cloudflare Worker that allows you to reliably upload objects to Cloudflare R2.
 - [laplace](https://github.com/kotx/laplace), a program to use a Raspberry Pi Pico microcontroller for Cemuhook-compatible motion controls!
 - [shovel](https://github.com/kotx/shovel), a client for placing lots of pixels on [Place IPv6](https://v6.sys42.net/).
 - [recorder](https://github.com/kotx/recorder), a Rust crate to simplify data struct creation.
