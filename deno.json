@@ -6,7 +6,7 @@
     "dev": "deno task serve -d"
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v1.18.0/"
+    "lume/": "https://deno.land/x/lume@v1.18.4/"
   },
   "fmt": {
     "useTabs": true,
